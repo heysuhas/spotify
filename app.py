@@ -1,14 +1,7 @@
 import streamlit as st
-import os
-from dotenv import load_dotenv
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth 
 
-load_dotenv()
-
-SPOTIPY_CLIENT_ID = os.getenv('SPOTIPY_CLIENT_ID')
-SPOTIPY_CLIENT_SECRET = os.getenv('SPOTIPY_CLIENT_SECRET')
-SPOTIPY_REDIRECT_URI = os.getenv('SPOTIPY_REDIRECT_URI')
 
 st.set_page_config(page_title="Music Recommendation System", page_icon="🎶")
 
@@ -17,9 +10,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id=SPOTIPY_CLIENT_ID,
-    client_secret=SPOTIPY_CLIENT_SECRET,
-    redirect_uri=SPOTIPY_REDIRECT_URI,
+    client_id=st.secrets["SPOTIPY_CLIENT_ID"],
+    client_secret=st.secrets["SPOTIPY_CLIENT_SECRET"],
+    redirect_uri=st.secrets["SPOTIPY_REDIRECT_URI"],
     scope="playlist-read-private"
 ))
 
