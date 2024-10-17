@@ -1,6 +1,7 @@
+
 # Spotify Music Recommendation System
 
-This project is a **Music Recommendation System** built using Streamlit and the Spotify API. It allows users to input their Spotify playlist, and the system recommends five more songs based on the playlist's musical attributes. The goal is to provide song recommendations tailored to users' preferences for an enhanced music discovery experience.
+This project is a **Music Recommendation System** built using Streamlit and Spotify API. It allows users to input their Spotify playlist, and the system recommends five more songs based on the playlist's musical attributes. The goal is to provide song recommendations tailored to users' preferences for an enhanced music discovery experience.
 
 ## Features
 - Takes a Spotify playlist URL as input.
@@ -22,19 +23,19 @@ This project is a **Music Recommendation System** built using Streamlit and the 
 ## Installation
 
 1. Clone the repository:
-    bash
+    ```bash
     git clone https://github.com/heysuhas/spotify.git
-    
+    ```
 2. Install the required dependencies:
-    bash
+    ```bash
     pip install -r requirements.txt
-    
+    ```
 3. Set up your Spotify API credentials by adding `client_id` and `client_secret` as environment variables or in a `.env` file.
 
 4. Run the app:
-    bash
+    ```bash
     streamlit run app.py
-    
+    ```
 
 ## Spotify API Credentials
 To get the recommendations, you need to set up the Spotify API credentials:
@@ -43,14 +44,10 @@ To get the recommendations, you need to set up the Spotify API credentials:
 2. Get your `client_id` and `client_secret`.
 3. Add these to your environment variables or a `.env` file:
 
-    bash
+    ```bash
     SPOTIPY_CLIENT_ID=your_client_id
     SPOTIPY_CLIENT_SECRET=your_client_secret
-    
-
-## Contributors
-- [Suhas](https://github.com/heysuhas)
-- [Yeshwanth](https://github.com/Yeshwanthch04)
+    ```
 
 ## License
 This project is licensed under the MIT License.
@@ -61,4 +58,4 @@ Feel free to reach out if you have any questions or feedback!
 - GitHub: [heysuhas](https://github.com/heysuhas)
 
 ---
-**Made with ❤️ by Suhas and Yeshwanth**
+**Made with ❤️ by Suhas**
