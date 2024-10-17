@@ -109,7 +109,7 @@ st.markdown("""
 st.markdown("""
     <footer style="background: linear-gradient(135deg, #7289DA, #40444B); padding: 20px; border-radius: 8px; position: relative;">
         <div style="animation: fade-in 2s; text-align: center;">
-            <p style="color: white; font-size: 18px;">Made with ❤️ by Suhas, 2024 | This project uses the Spotify API</p>
+            <p style="color: white; font-size: 18px;">Made by Suhas & Yesh, 2024 | This project uses the Spotify API</p>
             <p style="color: #1DB954;">
                 <a href="#privacy-policy" style="color: #1DB954; text-decoration: none;">Privacy Policy</a>
             </p>
@@ -128,30 +128,29 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.markdown("""
     <h2 id="privacy-policy" style="color: #1DB954;">Privacy Policy</h2>
-    <p>Your privacy is important to me. This Privacy Policy outlines how I collect, use, and protect your information when you use my Music Recommendation System.</p>
+    <p>Your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your information when you use our Music Recommendation System.</p>
     
-    <h3>1. Information I Collect</h3>
-    <p>I do not collect or store any personal information from users. The only information processed is the Spotify playlist or song URL you provide, which is used solely for generating song recommendations.</p>
+    <h3>1. Information We Collect</h3>
+    <p>We do not collect or store any personal information from users. The only information processed is the Spotify playlist or song URL you provide, which is used solely for generating song recommendations.</p>
     
-    <h3>2. How I Use Your Information</h3>
-    <p>The information you enter is utilized to fetch your Spotify data and to generate music recommendations based on your preferences. I do not use this information for any other purpose.</p>
+    <h3>2. How We Use Your Information</h3>
+    <p>The information you enter is utilized to fetch your Spotify data and to generate music recommendations based on your preferences. We do not use this information for any other purpose.</p>
     
     <h3>3. Data Security</h3>
-    <p>I am committed to ensuring that your information is secure. I implement appropriate technical and organizational measures to protect the information processed from unauthorized access, disclosure, alteration, or destruction.</p>
+    <p>We are committed to ensuring that your information is secure. We implement appropriate technical and organizational measures to protect the information processed from unauthorized access, disclosure, alteration, or destruction.</p>
     
     <h3>4. Cookies</h3>
-    <p>My application may use cookies to enhance user experience. Cookies are small files that are stored on your device. You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer.</p>
+    <p>Our application may use cookies to enhance user experience. Cookies are small files that are stored on your device. You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer.</p>
     
     <h3>5. Third-Party Services</h3>
-    <p>My application uses the Spotify API to fetch data. Please refer to Spotify's Privacy Policy for information on how they handle your data: <a href="https://www.spotify.com/us/legal/privacy-policy/" target="_blank">Spotify Privacy Policy</a>.</p>
+    <p>Our application uses the Spotify API to fetch data. Please refer to Spotify's Privacy Policy for information on how they handle your data: <a href="https://www.spotify.com/us/legal/privacy-policy/" target="_blank">Spotify Privacy Policy</a>.</p>
     
     <h3>6. User Rights</h3>
-    <p>You have the right to access, rectify, or delete your information. However, as I do not store any personal information, there is no information to access, rectify, or delete.</p>
+    <p>You have the right to access, rectify, or delete your information. However, as we do not store any personal information, there is no information to access, rectify, or delete.</p>
     
     <h3>7. Changes to This Privacy Policy</h3>
-    <p>I may update the Privacy Policy from time to time. I will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+    <p>We may update the Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
     
-    <h3>8. Contact Me</h3>
-    <p>If you have any questions or concerns about this Privacy Policy, please contact me at [tsuhasgamer@gmail.com].</p>
+    <h3>8. Contact Us</h3>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us at [tsuhasgamer@gmail.com].</p>
 """, unsafe_allow_html=True)
-
