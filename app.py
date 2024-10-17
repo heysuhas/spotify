@@ -10,9 +10,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id=st.secrets["SPOTIPY_CLIENT_ID"],
-    client_secret=st.secrets["SPOTIPY_CLIENT_SECRET"],
-    redirect_uri=st.secrets["SPOTIPY_REDIRECT_URI"],
+    client_id=st.secrets["spotify"]["client_id"],
+    client_secret=st.secrets["spotify"]["client_secret"],
+    redirect_uri=st.secrets["spotify"]["redirect_uri"],
     scope="playlist-read-private"
 ))
 
